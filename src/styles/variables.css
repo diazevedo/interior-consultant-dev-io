@@ -1,0 +1,26 @@
+:root {
+  --font-primary: "Space Mono", monospace;
+  --font-secondary: "Inconsolata", monospace;
+  --font-third: "Montserrat", sans-serif;
+
+  --gray-1: #333333;
+  --gray-2: #4f4f4f;
+
+  --white-1: #fff;
+
+  --text-xs: 1.4rem;
+  --text-sm: 1.8rem;
+  --text-md: 2.4rem;
+  --text-lg: 1.5rem;
+
+  --title-sm: 2.4rem;
+  --title-md: 4.55rem;
+  --title-lg: 6.4rem;
+
+  --space-xs: 2rem;
+  --space-sm: 2.4rem;
+  --space-md: 4rem;
+  --space-lg: 7.7rem;
+
+  --max-width: 144rem;
+}
