@@ -8,7 +8,7 @@
   maximum-scale=5"
     />
 
-    <link rel="icon" href="devchallenges.png" />
+    <link rel="icon" href="/src/assets/images/devchallenges.png" />
 
     <link
       rel="shortcut icon"
@@ -16,80 +16,52 @@
       href="https://devchallenges.io/"
     />
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-
-    <title>Devchallenges</title>
-
-    <style>
-      body {
-        font-family: "Poppins", sans-serif;
-      }
-
-      ul {
-        padding-left: 24px;
-      }
-
-      li {
-        margin-bottom: 8px;
-      }
-
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
-
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
-
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
-      }
-
-      .welcome-text h1 {
-        font-size: 1.5rem;
-      }
-
-      .welcome-text a {
-        color: #f7542e;
-      }
-    </style>
+    <title>Di Consultant</title>
   </head>
   <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
+    <header>
+      <a href="#">This Interior</a>
 
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
-        </p>
-      </div>
+      <input type="radio" id="menu__mobile-handler" />
+      <label for="menu__mobile-handler">Open menu <span>Span</span></label>
 
       <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Collection</a></li>
+        <li><a href="#"></a>About</li>
+        <li><a href="#"></a>Contact</li>
       </ul>
-    </div>
+    </header>
+
+    <main>
+      <div class="content">
+        <div class="content__text">
+          <h1 class="title-one">Modern interior</h1>
+          <p class="description">
+            A full-Service residential & commercial interior design and staging
+            company offering professional organizing & eco-services.
+          </p>
+          <a href="#">Read more</a>
+        </div>
+        <div class="content__images">
+          <img src="./src/assets/images/living-room.png" alt="living room" />
+          <article class="profile-card">
+            <img src="./src/assets/images/profile.png" alt="Aliza" />
+            <h3>Aliza Webber</h3>
+            <p>Interior designer</p>
+
+            <h2>Designed in 2020 by Aliza Webber</h2>
+          </article>
+        </div>
+      </div>
+      <footer>
+        <a href="http://" target="_blank" rel="noopener noreferrer"
+          >@DiAzevedo</a
+        >
+        <a href="http://" target="_blank" rel="noopener noreferrer"
+          >@DevChallenges.io</a
+        >
+      </footer>
+    </main>
   </body>
 </html>
