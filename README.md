@@ -33,7 +33,7 @@
 
 ![screenshot](./src/.github/mockup.png)
 
-A page to present a interior design concept. It was done to practice HTML and CSS and responsive design.
+A page to present an interior design concept. It was done to practice HTML and CSS and responsive design.
 
 ### Built With
 
