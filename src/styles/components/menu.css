@@ -56,11 +56,11 @@
   background-color: var(--white-1);
   transition: all 0.2s ease-in-out;
   position: absolute;
-  top: 200%;
+  top: 250%;
 }
 
 .menu__mobile-icon:after {
-  top: -200%;
+  top: -250%;
 }
 
 .menu__list {

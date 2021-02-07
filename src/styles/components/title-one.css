@@ -1,0 +1,12 @@
+.title-one {
+  color: var(--white-1);
+  font-size: var(--title-lg);
+  font-family: var(--font-secondary);
+  font-weight: 400;
+}
+
+@media (min-width: 920px) {
+  .title-one {
+    font-size: var(--title-lgx);
+  }
+}
