@@ -1,0 +1,15 @@
+/** Width will be defined by the context that it is used. */
+.description {
+  font-family: var(--font-primary);
+  font-weight: 300;
+  font-size: var(--text-md);
+  color: var(--white-1);
+  line-height: 1.8rem;
+}
+
+@media (min-width: 920px) {
+  .description {
+    font-size: var(--text-lgx);
+    line-height: 3rem;
+  }
+}

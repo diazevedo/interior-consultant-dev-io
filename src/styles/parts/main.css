@@ -1,1 +1,11 @@
 @import "./../components/title-one.css";
+@import "./../components/description.css";
+
+.content {
+  margin-top: 4.5rem;
+}
+
+.description {
+  width: 75%;
+  margin: 3rem 0 2.5rem;
+}
