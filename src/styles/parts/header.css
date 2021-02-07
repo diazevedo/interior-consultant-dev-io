@@ -1,1 +1,10 @@
 @import "./../components/menu.css";
+
+.header {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-sm) var(--space-xs);
+}

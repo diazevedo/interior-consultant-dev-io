@@ -1,5 +1,5 @@
 html {
-  font-size: 0.625%;
+  font-size: 62.5%;
 }
 
 html,
@@ -8,8 +8,31 @@ body {
   width: 100%;
 }
 
+body {
+  background-color: var(--black-1);
+  font-size: var(--text-md);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 *,
 *:before,
 *:after {
   box-sizing: border-box;
+}
+
+a {
+  font-size: inherit;
+  text-decoration: none;
+  color: var(--white-1);
+  cursor: pointer;
+}
+
+.content__images,
+.content__images * {
+  width: 100%;
+}
+
+.no-scroll {
+  overflow: hidden;
 }

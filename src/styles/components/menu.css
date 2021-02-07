@@ -1,0 +1,103 @@
+/* checkbox */
+.menu__mobile-handler {
+  position: absolute;
+  left: -9999px;
+}
+
+/* trigger to show menu */
+.menu__mobile-handler:checked ~ .menu__list {
+  top: 0;
+}
+
+.menu__mobile-handler:checked ~ .menu__mobile-label .menu__mobile-icon {
+  background-color: transparent;
+}
+
+.menu__mobile-handler:checked ~ .menu__mobile-label .menu__mobile-icon:after {
+  transform: rotate(45deg);
+  top: 0;
+}
+
+.menu__mobile-handler:checked ~ .menu__mobile-label .menu__mobile-icon:before {
+  transform: rotate(-45deg);
+  top: 0;
+}
+
+.menu__mobile-label {
+  /* display: block; */
+  z-index: 10;
+  height: 3rem;
+  width: 2.8rem;
+
+  cursor: pointer;
+
+  text-indent: -99999px;
+}
+
+/* hamburger that tuns into X */
+.menu__mobile-icon {
+  display: block;
+
+  width: 2.8rem;
+  height: 0.3rem;
+  background-color: var(--white-1);
+  position: relative;
+
+  transition: all 0.1s ease-in-out;
+}
+
+.menu__mobile-icon:before,
+.menu__mobile-icon:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+
+  background-color: var(--white-1);
+  transition: all 0.2s ease-in-out;
+  position: absolute;
+  top: 200%;
+}
+
+.menu__mobile-icon:after {
+  top: -200%;
+}
+
+.menu__list {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--text-lg);
+
+  background-color: var(--black-1);
+
+  position: absolute;
+  top: -100%;
+
+  transition: all 0.3s ease-in-out;
+
+  /*as the header has a padding it has to be pulled to the left or it will create a left space */
+  left: 0;
+}
+
+.menu__list-item {
+  font-size: inherit;
+  font-weight: 500;
+  font-family: var(--font-primary);
+}
+
+.menu__list-item:not(:first-child) {
+  margin-top: var(--space-mds);
+}
+
+.menu__list-item .menu__list-item__link {
+  color: var(--white-1);
+}
+
+.-active {
+  font-weight: 700;
+}
