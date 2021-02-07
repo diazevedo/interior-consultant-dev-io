@@ -1,0 +1,19 @@
+.link-with-icon {
+  display: block;
+  width: max-content;
+  padding-right: 3rem;
+
+  font-family: var(--font-primary);
+  font-size: var(--text-md);
+  font-weight: 600;
+
+  background-image: url(../../assets/images/trending_flat-white-18dp.svg);
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+@media (min-width: 920px) {
+  .link-with-icon {
+    font-size: var(--text-lg);
+  }
+}

@@ -1,5 +1,6 @@
 @import "./../components/title-one.css";
 @import "./../components/description.css";
+@import "./../components/link-with-icon.css";
 
 .content {
   margin-top: 4.5rem;
