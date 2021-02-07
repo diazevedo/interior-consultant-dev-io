@@ -16,7 +16,7 @@
   margin-top: 4rem;
 }
 
-/** created thos wrapper to avoid that the footer comes up*/
+/** created this wrapper to avoid that the footer comes up*/
 .profile-wrapper {
   position: relative;
   height: 138px;
@@ -32,6 +32,31 @@
 @media (min-width: 920px) {
   .content__images .profile-card {
     bottom: 20%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 17.5rem;
+  }
+
+  .content .content__text {
+    margin-top: 1rem;
+  }
+
+  .content .content__text .description {
+    max-width: 50rem;
+    margin: var(--space-lg) 0;
+  }
+
+  .content__images {
+    margin-top: 0;
+    max-width: 74rem;
+  }
+
+  .content__images .profile-card {
     right: 3.5rem;
   }
 }
