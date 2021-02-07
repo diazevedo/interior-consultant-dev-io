@@ -44,7 +44,7 @@
 
       <ul class="menu__list">
         <li class="menu__list-item">
-          <a class="menu__list-item__link" href="#">Home</a>
+          <a class="menu__list-item__link -active" href="#">Home</a>
         </li>
         <li class="menu__list-item">
           <a class="menu__list-item__link" href="#">Collection</a>
@@ -70,13 +70,21 @@
         </div>
         <div class="content__images">
           <img src="./src/assets/images/living-room.png" alt="living room" />
-          <article class="profile-card">
-            <img src="./src/assets/images/profile.png" alt="Aliza" />
-            <h3>Aliza Webber</h3>
-            <p>Interior designer</p>
+          <div class="profile-wrapper">
+            <article class="profile-card">
+              <img
+                src="./src/assets/images/profile.png"
+                alt="Aliza"
+                class="profile-card__image"
+              />
+              <h2 class="profile-card__name">Aliza Webber</h2>
+              <p class="profile-card__position">Interior designer</p>
 
-            <h2>Designed in 2020 by Aliza Webber</h2>
-          </article>
+              <h3 class="profile-card__title">
+                Designed in 2020 by Aliza Webber
+              </h3>
+            </article>
+          </div>
         </div>
       </div>
       <footer>

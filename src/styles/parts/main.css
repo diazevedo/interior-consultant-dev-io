@@ -1,6 +1,7 @@
 @import "./../components/title-one.css";
 @import "./../components/description.css";
 @import "./../components/link-with-icon.css";
+@import "./../components/profile-card.css";
 
 .content {
   margin-top: 4.5rem;
@@ -9,4 +10,28 @@
 .description {
   width: 75%;
   margin: 3rem 0 2.5rem;
+}
+
+.content__images {
+  margin-top: 4rem;
+}
+
+/** created thos wrapper to avoid that the footer comes up*/
+.profile-wrapper {
+  position: relative;
+  height: 138px;
+  width: 100%;
+}
+
+.content__images .profile-card {
+  position: absolute;
+  bottom: 35%; /*close to 88px defined on layout */
+  right: 1rem;
+}
+
+@media (min-width: 920px) {
+  .content__images .profile-card {
+    bottom: 20%;
+    right: 3.5rem;
+  }
 }
