@@ -45,7 +45,7 @@
   line-height: 2.3rem;
 }
 
-@media (min-width: 920px) {
+@media (min-width: 768px) {
   .profile-card {
     width: 41rem;
     padding-left: 2.6rem;

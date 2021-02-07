@@ -8,7 +8,7 @@
 }
 
 .description {
-  width: 75%;
+  /* width: 75%; */
   margin: 3rem 0 2.5rem;
 }
 
@@ -29,9 +29,10 @@
   right: 1rem;
 }
 
-@media (min-width: 920px) {
+@media (min-width: 768px) {
   .content__images .profile-card {
     bottom: 20%;
+    right: 3.5rem;
   }
 }
 
@@ -44,19 +45,17 @@
 
   .content .content__text {
     margin-top: 1rem;
+    margin-right: 2rem;
   }
 
   .content .content__text .description {
-    max-width: 50rem;
+    max-width: 40rem;
     margin: var(--space-lg) 0;
   }
 
   .content__images {
     margin-top: 0;
     max-width: 74rem;
-  }
-
-  .content__images .profile-card {
-    right: 3.5rem;
+    flex: 1;
   }
 }
