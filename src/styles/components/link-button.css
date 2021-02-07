@@ -2,7 +2,7 @@
   display: block;
   border: 1px var(--white-1) solid;
 
-  width: 10.2rem;
+  min-width: 10.2rem;
   height: 3.2rem;
 
   text-transform: uppercase;

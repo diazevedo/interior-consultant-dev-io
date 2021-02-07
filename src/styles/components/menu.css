@@ -101,3 +101,27 @@
 .-active {
   font-weight: 700;
 }
+
+@media (min-width: 920px) {
+  .menu__mobile-handler {
+    display: none;
+  }
+
+  .menu__mobile-label {
+    display: none;
+  }
+
+  .menu__list {
+    position: inherit;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: flex-end;
+    height: auto;
+  }
+
+  .menu__list-item:not(:first-child) {
+    margin-top: 0;
+    margin-left: var(--space-lxx);
+  }
+}
