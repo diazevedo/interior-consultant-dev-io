@@ -5,6 +5,7 @@
 
   --black-1: #181719;
   --gray-1: #828282;
+  --gray-2: #a9a9a9;
   --white-1: #fff;
 
   --text-xs: 1rem;
@@ -28,5 +29,5 @@
   --space-lxx: 8.6rem;
 
   --min-width: 37.5rem;
-  --max-width: 144rem;
+  --max-width: 128rem;
 }

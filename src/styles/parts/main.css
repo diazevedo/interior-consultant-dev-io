@@ -25,7 +25,7 @@
 
 .content__images .profile-card {
   position: absolute;
-  bottom: 35%; /*close to 88px defined on layout */
+  bottom: 40%; /*close to 88px defined on layout */
   right: 1rem;
 }
 
@@ -39,7 +39,7 @@
   .content {
     display: flex;
     justify-content: space-between;
-    margin-top: 17.5rem;
+    margin-top: 11rem;
   }
 
   .content .content__text {
